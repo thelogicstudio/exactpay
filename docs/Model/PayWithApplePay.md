@@ -1,0 +1,9 @@
+# # PayWithApplePay
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**apple_pay** | [**\TheLogicStudio\ExactPay\Model\PayWithApplePayApplePay**](PayWithApplePayApplePay.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
