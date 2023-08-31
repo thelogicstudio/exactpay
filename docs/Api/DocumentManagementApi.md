@@ -12,7 +12,7 @@ All URIs are relative to https://api.exactpaysandbox.com, except if the operatio
 | [**getDownloadAllDocuments()**](DocumentManagementApi.md#getDownloadAllDocuments) | **GET** /organization/{organizationId}/onboarding/{onboardingId}/document/download | Download All Documents |
 | [**getListDocumentRequests()**](DocumentManagementApi.md#getListDocumentRequests) | **GET** /organization/{organizationId}/onboarding/{onboardingId}/document-request | List Document Requests |
 | [**getRetrieveDocument()**](DocumentManagementApi.md#getRetrieveDocument) | **GET** /organization/{organizationId}/onboarding/{onboardingId}/document/{documentId} | Retrieve Document |
-| [**getRetrieveDocumentRequest()**](DocumentManagementApi.md#getRetrieveDocumentRequest) | **GET** /organization/{organizationId}/onboarding/{onboardingId}/document-request/{documentRequestId} | Retrieve Document Request |
+| [**getRetrieveDocumentRequestActual()**](DocumentManagementApi.md#getRetrieveDocumentRequestActual) | **GET** /organization/{organizationId}/onboarding/{onboardingId}/document-request/{documentRequestId} | Retrieve Document Request |
 | [**listDocumentRequestByToken()**](DocumentManagementApi.md#listDocumentRequestByToken) | **GET** /document-request/{documentRequestToken} | List Document Requests by Token |
 | [**putUpdateDocumentTypeById()**](DocumentManagementApi.md#putUpdateDocumentTypeById) | **PUT** /organization/{organizationId}/onboarding/{onboardingId}/document/{documentId} | Update Document Type |
 | [**updateDocumentRequest()**](DocumentManagementApi.md#updateDocumentRequest) | **PUT** /organization/{organizationId}/onboarding/{onboardingId}/document-request/{documentRequestId} | Update Document Request |
@@ -556,10 +556,10 @@ try {
 [[Back to Model list]](../../README.md#models)
 [[Back to README]](../../README.md)
 
-## `getRetrieveDocumentRequest()`
+## `getRetrieveDocumentRequestActual()`
 
 ```php
-getRetrieveDocumentRequest($organization_id, $onboarding_id, $document_request_id): \TheLogicStudio\ExactPay\Model\OnboardingDocumentRequestResponse
+getRetrieveDocumentRequestActual($organization_id, $onboarding_id, $document_request_id): \TheLogicStudio\ExactPay\Model\OnboardingDocumentRequestResponse
 ```
 
 Retrieve Document Request
@@ -590,10 +590,10 @@ $onboarding_id = 6154ce01387b94001cd87ada; // string | The Onboarding Applicatio
 $document_request_id = 61e8607bd569a196900527c5; // string | The Document Request identifier.
 
 try {
-    $result = $apiInstance->getRetrieveDocumentRequest($organization_id, $onboarding_id, $document_request_id);
+    $result = $apiInstance->getRetrieveDocumentRequestActual($organization_id, $onboarding_id, $document_request_id);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling DocumentManagementApi->getRetrieveDocumentRequest: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling DocumentManagementApi->getRetrieveDocumentRequestActual: ', $e->getMessage(), PHP_EOL;
 }
 ```
 

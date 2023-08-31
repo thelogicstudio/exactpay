@@ -4,7 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**_id** | **string** | The identifier of the Account. | [optional] [readonly]
 **id** | **string** | The identifier of the Account. | [optional] [readonly]
 **type** | **string** | The Type of the entity. For Merchant it always &#x60;account&#x60;. | [optional] [readonly]
 **parent_account_id** | **string** | The identifier of the Organization who onboarded this Account. | [optional] [readonly]

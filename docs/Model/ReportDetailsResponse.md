@@ -72,7 +72,6 @@ Name | Type | Description | Notes
 **term_id** | **string** |  | [optional]
 **ent_num** | **string** |  | [optional]
 **updated_at** | **string** |  | [optional]
-**e_commerce_flag** | **string** |  | [optional]
 **reference** | [**\TheLogicStudio\ExactPay\Model\SettlementReportDetailsReference**](SettlementReportDetailsReference.md) |  | [optional]
 **surcharge_amount** | **float** |  | [optional]
 **channel** | **string** |  | [optional]

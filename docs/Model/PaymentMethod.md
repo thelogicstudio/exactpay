@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type** | **string** | Indicates the type of Payment Method stored in Exact Payments Vault, &#x60;ach&#x60; value will be returned for ACH Payment Methods. | [optional]
+**type** | **string** | Indicates the type of Payment Method stored in Exact Payments Vault, &#x60;card&#x60; value will be returned for Card Payment Methods. | [optional]
 **token** | **string** | This is the token value that can be used for future Payments. | [optional]
 **billing_details** | [**\TheLogicStudio\ExactPay\Model\BillingDetailsSchema**](BillingDetailsSchema.md) |  | [optional]
 **card** | [**\TheLogicStudio\ExactPay\Model\CardDetailsSchema**](CardDetailsSchema.md) |  | [optional]

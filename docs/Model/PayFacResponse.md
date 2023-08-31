@@ -4,7 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**_id** | **string** |  | [optional]
 **id** | **string** |  | [optional]
 **type** | **string** |  | [optional]
 **parent_account_id** | **string** |  | [optional]

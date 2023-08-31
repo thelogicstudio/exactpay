@@ -4,7 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**_id** | **string** | Underwriting Workflow Identifier. | [optional]
 **id** | **string** | Underwriting Workflow Identifier. | [optional]
 **name** | **string** | The name of the Workflow. | [optional]
 **enabled** | **bool** | Indicates whether the Underwriting Workflow is an enabled Workflow or not. | [optional]

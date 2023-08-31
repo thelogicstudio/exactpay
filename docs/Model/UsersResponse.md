@@ -4,7 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**_id** | **string** | The user&#39;s Id | [optional]
 **id** | **string** | The user&#39;s Id | [optional]
 **roles** | **string[]** | The user&#39;s roles | [optional]
 **email** | **string** | The user&#39;s email | [optional]

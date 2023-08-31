@@ -4,7 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**_id** | **string** | The Document Request identifier. | [optional]
 **id** | **string** | The Document Request identifier. | [optional]
 **type** | **string** | The Template used for the Document Request. | [optional]
 **subject** | **string** | The subject of the email sent. | [optional]

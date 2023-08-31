@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 **bank_response** | [**\TheLogicStudio\ExactPay\Model\SettlementReportDetailsBankResponse**](SettlementReportDetailsBankResponse.md) |  | [optional]
 **exact_response** | [**\TheLogicStudio\ExactPay\Model\TransactionsReportDetailsBankResponse**](TransactionsReportDetailsBankResponse.md) |  | [optional]
 **payment_method_details** | [**\TheLogicStudio\ExactPay\Model\SettlementReportDetailsPaymentMethodDetails**](SettlementReportDetailsPaymentMethodDetails.md) |  | [optional]
-**e_commerce_flag** | **string** |  | [optional]
+**ecommerce_flag** | **string** |  | [optional]
 **created_at** | **string** |  | [optional]
 **type** | **string** |  | [optional]
 **reference** | [**\TheLogicStudio\ExactPay\Model\SettlementReportDetailsReference**](SettlementReportDetailsReference.md) |  | [optional]
