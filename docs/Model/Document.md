@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **_id** | **string** | Unique identifier created for the Document upload made for the Onboarding Application. | [optional]
 **name** | **string** | Name assigned for the Document. | [optional]
-**type** | [**DocumentUploadType**](DocumentUploadType.md) | Type of the Document uploaded. | [optional]
+**type** | **string** | Type of the Document uploaded. | [optional]
 **file** | **string** | File name. | [optional]
 **ext** | **string** | File extension. | [optional]
 **mime** | **string** | Multipurpose Internet Mail Extension of the File. | [optional]
