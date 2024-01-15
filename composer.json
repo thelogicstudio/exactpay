@@ -10,12 +10,12 @@
         "rest",
         "api"
     ],
-    "homepage": "https://openapi-generator.tech",
-    "license": "unlicense",
+    "homepage": "https://logicstudio.nz",
     "authors": [
         {
-            "name": "OpenAPI-Generator contributors",
-            "homepage": "https://openapi-generator.tech"
+            "name": "The Logic Studio",
+            "homepage": "https://logicstudio.nz",
+            "email": "hello@logicstudio.nz"
         }
     ],
     "require": {
